@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["ggIQ6"]); }
+
+__d("CometTextWithBadge.react",["BaseView.react","React","stylex"],(function(a,b,c,d,e,f){"use strict";var g=b("React"),h={badge:{alignItems:"bp9cbjyn",display:"pq6dq46d",verticalAlign:"sf5mxxl7"},space:{display:"nc684nl6",marginEnd:"ojzfs718"}};function a(a){var c=a.badgeAfter,d=a.badgeBefore,e=a.children;a=a.direction;a=a===void 0?"auto":a;return g.jsxs("span",{dir:a==="auto"?"auto":void 0,children:[d&&g.jsxs(b("BaseView.react"),{xstyle:h.badge,children:[d,g.jsx(b("BaseView.react"),{xstyle:h.space,children:"\u2060"})]}),e,c&&g.jsxs(b("BaseView.react"),{xstyle:h.badge,children:[g.jsx(b("BaseView.react"),{xstyle:h.space,children:"\u2060"}),c]})]})}e.exports=a}),null);

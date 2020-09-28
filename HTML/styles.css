@@ -1,0 +1,9 @@
+body {background-color: powderblue;}
+h2{color: pink;}
+p {font-size: 300%;
+color: aliceblue;}
+a {font-size: 300%;
+color: aliceblue;}
+a:link {
+	color: red;
+}

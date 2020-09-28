@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["\/mZYw"]); }
+
+__d("MWMSSendCometPostback.bs",["bs_curry","React","bs_caml_option","MWCurrentThread.bs","MWMSSendXMDMessage.bs"],(function(a,b,c,d,e,f){"use strict";var g=b("React");function a(a){var c=b("MWCurrentThread.bs").useCurrentThreadExn(0),d=b("MWMSSendXMDMessage.bs").useSendXMDMessage(0);return g.useCallback(function(a){return function(e){return b("bs_curry")._3(d,c,{body:a,quickReply:void 0,postback:b("bs_caml_option").some(e)},void 0)}},[d])}f.useSendCometPostback=a}),null);
+__d("MWMSPostbackCtaHandler.bs",["gkx","recoverableViolation"],(function(a,b,c,d,e,f){"use strict";function a(a,c,d){if(b("gkx")("1463539"))return 0;else{b("recoverableViolation")("Unexpected Lightspeed CTA on non lightspeed chat","messenger_privacy_web");return 0}}f.usePostbackCtaHandler=a}),null);
+__d("MWMSWebUrlCtaHandler.bs",[],(function(a,b,c,d,e,f){"use strict";function a(a){return function(a){return 0}}f.useShowWebViewDialog=a}),null);
